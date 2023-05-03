@@ -1,5 +1,5 @@
 # flipkart
 Steps to Run Project
-clone the project on local system
-import to ide
-Flipkart/testng.xml Run this file (TestNG)
+1. clone the project on local system
+2. import to ide
+3. Flipkart/testng.xml Run this file (TestNG)
