@@ -11,6 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.ExplicitWait;
 
 public class FlowBoyGirlsJeans {
+	
 	WebDriver driver;
 	Actions actions;
 
