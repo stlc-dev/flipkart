@@ -6,6 +6,4 @@ Steps to Run Project
 3. Flipkart_And_DemoQA_Test/testngflipkart.xml Run this file (TestNG)
 
 DemoQA Run
-1. Clone the project on local system
-2. Import into ide
-3. Flipkart_And_DemoQA_Test/testngdemoqa.xml Run this file (TestNG)
+1. Flipkart_And_DemoQA_Test/testngdemoqa.xml Run this file (TestNG)
