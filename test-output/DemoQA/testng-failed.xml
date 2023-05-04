@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoQA]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DemoQAdroppable(failed)">
+    <classes>
+      <class name="testClasses.DemoQAdroppable">
+        <methods>
+          <include name="Verify_DragAndDrop"/>
+        </methods>
+      </class> <!-- testClasses.DemoQAdroppable -->
+    </classes>
+  </test> <!-- DemoQAdroppable(failed) -->
+  <test thread-count="5" name="Demoqaframes(failed)">
+    <classes>
+      <class name="testClasses.Demoqaframes">
+        <methods>
+          <include name="Verify_Frames"/>
+        </methods>
+      </class> <!-- testClasses.Demoqaframes -->
+    </classes>
+  </test> <!-- Demoqaframes(failed) -->
+  <test thread-count="5" name="DemoQABrowserWindow(failed)">
+    <classes>
+      <class name="testClasses.DemoQABrowserWindow">
+        <methods>
+          <include name="Verify_Browser_Window"/>
+        </methods>
+      </class> <!-- testClasses.DemoQABrowserWindow -->
+    </classes>
+  </test> <!-- DemoQABrowserWindow(failed) -->
+</suite> <!-- Failed suite [DemoQA] -->

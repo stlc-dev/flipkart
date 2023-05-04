@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoQA">
+	<test thread-count="5" name="DemoQAAlerts">
+		<classes>
+			<class name="testClasses.DemoQAAlerts" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="DemoQAdroppable">
+		<classes>
+			<class name="testClasses.DemoQAdroppable" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Demoqaframes">
+		<classes>
+			<class name="testClasses.Demoqaframes" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="DemoQABrowserWindow">
+		<classes>
+			<class name="testClasses.DemoQABrowserWindow" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+

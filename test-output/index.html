@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>testng.xml</span>
+                    <span>testngflipkart.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -132,7 +132,7 @@
                   <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
 	expected [Kcoy Regular Boys Dark Blue Jeans] but found [Boys Regular Mid Rise Dark Blue Jeans],
 	expected [₹178] but found [170]
-	at testClasses.FlowBoyGirlsJeansTest.Verify_Product_Title_And_Price(FlowBoyGirlsJeansTest.java:45)
+	at testClasses.FlowBoyGirlsJeansTest.Verify_Product_Title_And_Price(FlowBoyGirlsJeansTest.java:38)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
@@ -143,19 +143,19 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/omkarsulakhe/eclipse-workspace/flipkart/testng.xml</span>
+            <span class="header-content">/Users/omkarsulakhe/eclipse-workspace/Flipkart_And_DemoQA_Test/testngflipkart.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;flipkart&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testClasses.FlowBoyGirlsJeansTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- flipkart --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -167,7 +167,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">flipkart (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -197,12 +197,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Verify_Product_Title_And_Price')
 data.setCell(0, 2, 'testClasses.FlowBoyGirlsJeansTest')
-data.setCell(0, 3, 8978);
+data.setCell(0, 3, 10724);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -235,14 +235,22 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforemethod</span>
-                <span class="method-start">8864 ms</span>
+                <span class="method-start">14444 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Verify_Product_Title_And_Price</span>
-                <span class="method-start">8915 ms</span>
+                <span class="method-start">14502 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod([TestResult name=Verify_Product_Title_And_Price status=FAILURE method=FlowBoyGirlsJeansTest.Verify_P...)</span>
+                <span class="method-start">25234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">25841 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
